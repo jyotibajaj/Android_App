@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- // String constants -->
+    <string name="app_name">Foodient</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Enter url </string>
+    <string name="submit_button">Search</string>
+    <string name="scan_it">Scan It</string>
+    <string name="title_activity_activity2">Foodients</string>
+    <string name="title_activity_scanner">Scan UPC</string>
+
+    <!--Keys String-->
+    <string name="brand_name">Brand</string>
+    <string name="nf_sodium">Sodium</string>
+    <string name="trans_fatty_acid_ingredient_key">Trans Fatty Acid</string>
+    <string name="nf_calories_from_fat">Calories From Fat</string>
+    <string name="nf_protein">Protein</string>
+    <string name="nf_total_carbohydrate">Carbohydrate</string>
+    <string name="nf_sugars">Sugar</string>
+    <string name="nf_vitamin_c_dv">Vitamin C</string>
+    <string name="nf_vitamin_a_dv">Vitamin A</string>
+    <string name="nf_calories">Calories</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_description">Item Description</string>
+    <string name="nf_ingredient_statement">Ingredients</string>
+    <string name="nf_water_grams">Water</string>
+    <string name="nf_total_fat">Total Fat</string>
+    <string name="nf_saturated_fat">Saturated Fat</string>
+    <string name="nf_trans_fatty_acid">Trans Fatty Acid</string>
+    <string name="nf_polyunsaturated_fat">Polyunsaturated Fat</string>
+    <string name="nf_monounsaturated_fat">Monounsaturated Fat</string>
+    <string name="nf_cholesterol">Cholestrol</string>
+    <string name="nf_dietary_fiber">Dietary Fiber</string>
+    <string name="nf_iron_dv">Iron</string>
+    <string name="nf_servings_per_container">Serving Per Container</string>
+    <string name="nf_serving_size_unit">Serving Size Per Unit</string>
+    <string name="nf_serving_weight_grams">Serving Weight In Grams</string>
+    <string name="allergen_contains_milk">Milk</string>
+    <string name="allergen_contains_eggs">Eggs</string>
+    <string name="allergen_contains_fish">Fish</string>
+    <string name="allergen_contains_shellfish">Shellfish</string>
+    <string name="allergen_contains_tree_nuts">Tree Nuts</string>
+    <string name="allergen_contains_peanuts">Peanuts</string>
+    <string name="allergen_contains_wheat">Wheat</string>
+    <string name="allergen_contains_soybeans">Soybeans</string>
+    <string name="allergen_contains_gluten">Gluten</string>
+
+
+</resources>
