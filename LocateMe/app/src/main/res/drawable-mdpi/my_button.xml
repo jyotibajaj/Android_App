@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <!-- Specify a semi-transparent solid green background color -->
+    <solid android:color="#Cf1E2D63"  />
+
+    <!-- Specify a dark green border -->
+    <stroke
+        android:width="2dp"
+        android:color="#111E2D63" />
+    <corners android:radius= "4dp" />
+
+    <!-- Specify the margins that all content inside the drawable must adhere to -->
+    <padding
+        android:left="3dp"
+        android:right="3dp"
+        android:top="3dp"
+        android:bottom="3dp" />
+</shape>

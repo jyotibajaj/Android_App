@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    tools:context="com.letsdecode.locateme.DisplayActivity">
+
+
+    <item
+        android:id="@+id/share_option"
+        android:icon="@drawable/share_icon"
+        android:orderInCategory="1"
+        android:title="@string/share_option"
+        yourapp:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        yourapp:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/send_code_option"
+        android:icon="@drawable/share_icon"
+        android:orderInCategory="2"
+        android:title="@string/send_code_option"
+        yourapp:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        yourapp:showAsAction="never"
+
+        />
+</menu>

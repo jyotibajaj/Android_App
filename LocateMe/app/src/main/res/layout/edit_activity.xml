@@ -1,0 +1,73 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.letsdecode.locateme.EditActivity"
+    android:background="#e8e4f6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+<TextView
+    android:id="@+id/enterSecretCode"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="90dp"
+    android:layout_marginLeft="5dp"
+    android:fontFamily="serif"
+    android:text="Set your secret code"
+    android:textColor="#Cf1E2D63"
+    android:textSize="20sp" />
+
+<EditText
+    android:id="@+id/secretCodeEdit"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:hint="enter 4 digits code"
+    android:inputType="number"
+    android:maxLength="4"
+    android:textColor="#000000"
+    android:textColorHint="#771E2D63"
+    android:textSize="20sp"
+
+    />
+
+<Button
+    android:id="@+id/save"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_centerInParent="true"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginTop="10dp"
+    android:textColor="#ffffff"
+    android:text="Save"
+    android:textSize="20sp"
+    android:background="@drawable/my_button" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="80dp"
+    android:textColor="#Cf1E2D63"
+    android:text="Enter and save the secret code. Share the saved code with your friends and family members so they can track your current location. On recieving the sms containing this code, &quot;Locate Me&quot; would automatically send your current location."/>
+
+</LinearLayout>
+</LinearLayout>

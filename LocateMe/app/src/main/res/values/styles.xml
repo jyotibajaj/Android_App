@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+    </style>
+    <style name="MyActionBarTitleText"
+        parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:textColor">#ffffffff</item>
+
+    </style>
+    <style name="MyActionBar"
+        parent="@android:style/Widget.ActionBar">
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+        <item name="android:background">#Cf1E2D63</item>
+
+    </style>
+    <style name ="MyPopupMenu" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">#Cf1E2D63</item>
+    </style>
+
+<style name="popup" parent="Theme.AppCompat">
+    <item name="android:popupMenuStyle">@style/MyPopupMenu</item>
+    <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+
+</style>
+
+
+
+
+
+
+</resources>
